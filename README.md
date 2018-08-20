@@ -14,7 +14,7 @@ You need to connect the smart meter with a RJ11 connector. This is the pinout to
 
 Connect GND->GND on ESP, RTS->3.3V on ESP and RxD->any digital pin on ESP. In this sketch I use D5
 
-For Sagemcom T210-D a 10K resistor should be placed between RTS and RxD (ref. [issue #6](/jantenhove/P1-Meter-ESP8266/issues/6)).
+For Sagemcom T210-D a 10K resistor should be placed between RTS and RxD (ref. [issue #6](https://github.com/jantenhove/P1-Meter-ESP8266/issues/6)).
 
 ### Changelog
 - Added support for three phase system (L1/L2/L3)
