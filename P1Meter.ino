@@ -210,7 +210,6 @@ bool verifyChecksum(int len) {
 }
 
 bool decodeTelegram(int len) {
-    currentCRC=CRC16(0x0000,(unsigned char *) telegram+startChar, len-startChar);
 
   // Read each command pair
   char* command = strtok(telegram, "\n");
